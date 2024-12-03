@@ -1,0 +1,682 @@
+.group-child {
+    position: absolute;
+    top: 0.125rem;
+    left: 0;
+    background-color: var(--color-gray-100);
+    width: 120rem;
+    height: 90rem;
+  }
+  .frame-child {
+    position: absolute;
+    top: 1.063rem;
+    left: 0;
+    border-radius: 20px;
+    width: 43.938rem;
+    height: 61.625rem;
+    object-fit: cover;
+  }
+  .privacy-policy {
+    position: relative;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+  }
+  .terms-privacy-child {
+    width: 0.25rem;
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--color-gray-100);
+    height: 0.25rem;
+  }
+  .terms-of-service {
+    position: relative;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    text-align: left;
+  }
+  .terms-privacy {
+    position: absolute;
+    top: 58.438rem;
+    left: 4.25rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.687rem;
+    text-align: center;
+  }
+  .logo-brand-child,
+  .logo-brand-inner,
+  .logo-brand-item {
+    position: absolute;
+    height: 63.34%;
+    width: 63.44%;
+    border-radius: 50%;
+    transform: rotate(22.2deg);
+    transform-origin: 0 0;
+  }
+  .logo-brand-child {
+    top: 18.06%;
+    right: -2.16%;
+    bottom: 18.59%;
+    left: 38.71%;
+    background: linear-gradient(91.16deg, #697290, #cd7aff);
+  }
+  .logo-brand-inner,
+  .logo-brand-item {
+    top: 15.13%;
+    right: -0.65%;
+    bottom: 21.52%;
+    left: 37.2%;
+    background-color: var(--brand-color-primary);
+  }
+  .logo-brand-inner {
+    height: 63.05%;
+    width: 67.98%;
+    top: 77.13%;
+    right: -44.9%;
+    bottom: -40.18%;
+    left: 76.92%;
+    background-color: var(--color-plum);
+    transform: rotate(-172.7deg);
+  }
+  .ellipse-div,
+  .logo-brand-child1 {
+    position: absolute;
+    border-radius: 50%;
+    display: none;
+  }
+  .ellipse-div {
+    height: 70.38%;
+    width: 72.51%;
+    top: 59.43%;
+    right: -72.58%;
+    bottom: -29.81%;
+    left: 100.07%;
+    background: linear-gradient(159.93deg, #292e3d, #595f73);
+    transform: rotate(147.6deg);
+    transform-origin: 0 0;
+  }
+  .logo-brand-child1 {
+    height: 61.58%;
+    width: 63.44%;
+    top: 17.94%;
+    right: 18%;
+    bottom: 20.47%;
+    left: 18.56%;
+    background: linear-gradient(
+      111.04deg,
+      rgba(78, 131, 210, 0.8) 8.46%,
+      #16161d
+    );
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25),
+      2px 2px 10px rgba(0, 0, 0, 0.25) inset;
+  }
+  .d,
+  .d-parent,
+  .g {
+    position: absolute;
+  }
+  .d {
+    top: -24.14%;
+    left: -27.78%;
+    display: none;
+  }
+  .d-parent,
+  .g {
+    top: 0;
+    left: 0;
+  }
+  .d-parent {
+    height: 42.52%;
+    width: 27.19%;
+    top: 32.44%;
+    right: 33.35%;
+    bottom: 25.04%;
+    left: 39.46%;
+    display: none;
+  }
+  .logo-brand {
+    width: 4.138rem;
+    height: 4.263rem;
+    display: none;
+  }
+  .logo-brand,
+  .plantwise {
+    position: relative;
+  }
+  .platform-discussion {
+    position: relative;
+    font-size: var(--font-size-xs);
+    font-weight: 300;
+    font-family: var(--font-poppins);
+    color: var(--neutral-white);
+  }
+  .brands,
+  .plantwise-parent {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .plantwise-parent {
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 4rem;
+    color: var(--color-gold-100);
+    font-family: var(--font-irish-grover);
+  }
+  .brands {
+    flex-direction: row;
+    align-items: center;
+    gap: var(--gap-8xs);
+  }
+  .qualquer-dvida-sobre {
+    width: 34.563rem;
+    position: relative;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    font-weight: 500;
+    color: var(--neutral-white);
+    display: inline-block;
+  }
+  .text-content,
+  .text-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .text-content {
+    gap: 0.25rem;
+  }
+  .text-content-wrapper {
+    position: absolute;
+    top: 7.625rem;
+    left: 4.25rem;
+    font-size: var(--font-size-5xl);
+    color: var(--color-whitesmoke);
+  }
+  .aqui-ns-buscamos {
+    position: absolute;
+    top: 9.25rem;
+    left: 1.875rem;
+    font-weight: 500;
+    display: inline-block;
+    width: 30.625rem;
+    height: 2.938rem;
+  }
+  .avatar-1-icon {
+    position: absolute;
+    top: 0.188rem;
+    left: 0.375rem;
+    width: 2.75rem;
+    height: 2.75rem;
+    object-fit: cover;
+  }
+  .avatar-1-wrapper {
+    width: 3.438rem;
+    position: relative;
+    border-radius: var(--br-8xs);
+    background-color: #9ab78d;
+    height: 3.438rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .ebayyou-anggoro {
+    position: relative;
+    font-weight: 500;
+  }
+  .h-ago {
+    position: relative;
+    font-size: var(--font-size-xs);
+    color: var(--neutral-brown);
+  }
+  .ebayyou-anggoro-parent,
+  .frame-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-group {
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .group-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-8xs);
+    background-color: #d1caff;
+    width: 6.25rem;
+    height: 2.125rem;
+  }
+  .consultor {
+    position: absolute;
+    top: 0.555rem;
+    left: 1.188rem;
+    font-weight: 500;
+    display: inline-block;
+    width: 3.875rem;
+    height: 1.55rem;
+  }
+  .rectangle-container {
+    width: 6.25rem;
+    position: relative;
+    height: 2.125rem;
+    font-size: var(--font-size-xs);
+    color: var(--brand-color-second-color);
+  }
+  .fale-sobre-o,
+  .frame-parent {
+    position: absolute;
+    left: 1.875rem;
+    width: 30.625rem;
+  }
+  .frame-parent {
+    top: 4.25rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.875rem;
+  }
+  .fale-sobre-o {
+    top: 1.25rem;
+    font-size: 1.563rem;
+    font-weight: 600;
+    display: inline-block;
+    height: 1.75rem;
+  }
+  .frame-item {
+    width: 2.125rem;
+    position: relative;
+    border-radius: 12px;
+    height: 2.125rem;
+  }
+  .vector-icon {
+    width: 1rem;
+    position: relative;
+    border-radius: var(--br-mini);
+    height: 0.875rem;
+  }
+  .vector-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-8xs);
+  }
+  .div {
+    position: absolute;
+    top: 0.063rem;
+    left: 0.438rem;
+    font-weight: 500;
+  }
+  .wrapper {
+    width: 1.625rem;
+    position: relative;
+    border-radius: 0 var(--br-8xs) var(--br-8xs) 0;
+    background-color: var(--color-gold-100);
+    height: 1.188rem;
+    font-size: var(--font-size-xs);
+    color: var(--neutral-white);
+  }
+  .frame-parent1 {
+    position: absolute;
+    top: 0.438rem;
+    left: 0.625rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.75rem;
+  }
+  .frame-wrapper {
+    width: 9.25rem;
+    position: relative;
+    border-radius: var(--br-mini);
+    background-color: #d9d9d9;
+    height: 2.125rem;
+  }
+  .frame-div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.562rem;
+  }
+  .thumbs-up-icon {
+    width: 1.5rem;
+    position: relative;
+    height: 1.5rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .thumbs-down-parent,
+  .thumbs-up-parent {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: var(--gap-11xs);
+  }
+  .thumbs-up-parent {
+    top: 0;
+    left: 0;
+    align-items: flex-end;
+  }
+  .thumbs-down-parent {
+    top: 0.5rem;
+    left: 2.625rem;
+    align-items: flex-start;
+  }
+  .group-div {
+    width: 4.875rem;
+    position: relative;
+    height: 2rem;
+    color: var(--neutral-white);
+  }
+  .frame-container {
+    position: absolute;
+    top: 14.625rem;
+    left: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 7rem;
+    font-size: var(--font-size-3xs);
+    color: var(--color-darkslategray-100);
+  }
+  .thread-1 {
+    width: 34.375rem;
+    position: relative;
+    border-radius: var(--br-mini);
+    background-color: var(--brand-color-second-color);
+    box-shadow: 10px 10px 0 rgba(2, 2, 2, 0.45);
+    height: 18.375rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .thread-group {
+    position: absolute;
+    top: 31.875rem;
+    left: 4.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1.125rem;
+    color: var(--neutral-white);
+    font-family: var(--font-poppins);
+  }
+  .rectangle-group {
+    position: absolute;
+    top: 0.125rem;
+    left: 0;
+    width: 43.938rem;
+    height: 64rem;
+    overflow: hidden;
+  }
+  .login {
+    position: relative;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .spacing,
+  .voc-pode-logar {
+    align-self: stretch;
+    position: relative;
+  }
+  .voc-pode-logar {
+    line-height: 1.75rem;
+    color: var(--color-gray-200);
+  }
+  .spacing {
+    background-color: var(--spacing);
+    height: 0.625rem;
+  }
+  .google-icon-1 {
+    width: 1.5rem;
+    position: relative;
+    height: 1.563rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .login-with-google {
+    position: relative;
+    font-weight: 600;
+  }
+  .button {
+    align-self: stretch;
+    border-radius: var(--br-7xs);
+    background-color: var(--neutral-white);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-xl) var(--padding-6xl);
+    gap: var(--gap-mini);
+    color: var(--color-gray-100);
+  }
+  .spacing1 {
+    align-self: stretch;
+    position: relative;
+    background-color: var(--spacing);
+    height: 1.563rem;
+    z-index: 0;
+  }
+  .frame-inner {
+    flex: 1;
+    position: relative;
+    background-color: var(--color-darkslategray-100);
+    height: 0.125rem;
+  }
+  .rectangle-parent1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2.5rem;
+    z-index: 1;
+  }
+  .or {
+    width: 1.063rem;
+    position: absolute;
+    margin: 0 !important;
+    top: 1.563rem;
+    left: calc(50% - 8px);
+    font-weight: 600;
+    display: inline-block;
+    z-index: 2;
+  }
+  .spacing-parent,
+  .spacing2 {
+    align-self: stretch;
+    position: relative;
+  }
+  .spacing-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-3xs);
+  }
+  .spacing2 {
+    background-color: var(--spacing);
+    height: 1.563rem;
+  }
+  .form-group,
+  .input {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .input {
+    border-radius: var(--br-5xs);
+    background-color: var(--color-darkslategray-100);
+    height: 4.063rem;
+    justify-content: center;
+    padding: var(--padding-xl) var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .form-group {
+    justify-content: flex-start;
+    gap: var(--gap-3xs);
+  }
+  .esqueceu-sua-senha {
+    position: relative;
+    font-weight: 600;
+    color: var(--brand-color-additional-001);
+  }
+  .senha-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .div3 {
+    position: relative;
+    letter-spacing: 0.02em;
+  }
+  .remember-me-child {
+    width: 1.563rem;
+    position: relative;
+    border-radius: 3px;
+    background-color: var(--color-darkslategray-100);
+    height: 1.563rem;
+  }
+  .button1,
+  .remember-me {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .remember-me {
+    justify-content: flex-start;
+    gap: var(--gap-mini);
+  }
+  .button1 {
+    border-radius: var(--br-7xs);
+    background-color: var(--color-gold-100);
+    justify-content: center;
+    padding: var(--padding-6xl);
+    color: var(--color-gray-100);
+  }
+  .button1,
+  .form,
+  .spacing3 {
+    align-self: stretch;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1.875rem;
+  }
+  .spacing3 {
+    position: relative;
+    background-color: var(--spacing);
+    height: 2.188rem;
+  }
+  .span {
+    color: var(--color-gray-200);
+  }
+  .crie-uma {
+    color: var(--brand-color-additional-001);
+  }
+  .no-tem-uma-container {
+    align-self: stretch;
+    position: relative;
+    font-weight: 600;
+    text-align: center;
+    color: rgba(252, 220, 42, 0.6);
+  }
+  .left-side {
+    position: absolute;
+    top: 0;
+    left: 45rem;
+    width: 45rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 8.75rem;
+    box-sizing: border-box;
+    gap: var(--gap-3xs);
+    font-size: var(--font-size-base);
+    color: var(--neutral-white);
+  }
+  .rectangle-parent {
+    text-decoration: none;
+    width: 100%;
+    position: relative;
+    height: 64.125rem;
+    text-align: left;
+    font-size: var(--font-size-xs);
+    color: var(--color-gold-100);
+    font-family: var(--font-inter);
+  }
+  /* Estilos para os inputs e botões de login */
+  .input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .button1, .button {
+    width: 100%;
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .button1:hover, .button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Estilos para o checkbox de lembrar-me */
+  .remember-me {
+    display: flex;
+    align-items: center;
+  }
+  
+  .remember-me input {
+    margin-right: 10px;
+  }
+  
+  /* Estilos para o link de esquecimento de senha */
+  .esqueceu-sua-senha {
+    color: #007BFF;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .esqueceu-sua-senha:hover {
+    color: #0056b3;
+  }
+  
+  /* Estilos para tornar a página responsiva */
+  @media screen and (max-width: 768px) {
+    .left-side {
+      width: 100%;
+      padding: 20px;
+    }
+    
+    .button1, .button, .input {
+      width: calc(100% - 20px);
+    }
+  }
